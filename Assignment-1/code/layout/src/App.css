@@ -1,0 +1,64 @@
+
+.container{
+  padding: 37px;
+}
+.yellow_container{
+  display: flex;
+  width: 100%;
+  height: 33.33vh;
+  column-gap: 10px;
+ justify-content: space-between;
+}
+.yellow{
+  
+  background-color: yellow;
+  width: 49.8%;
+  height: 100%;
+  border: none
+}
+.red_container{
+  height: 33.33vh;
+  width: 100%;
+  background-color: red;
+  margin-top: 37px;
+}
+.blue_container{
+  width: 100%;
+  height: 33vh;
+  display: flex;
+  flex-direction: row;
+  margin-top: 37px;
+  column-gap: 10px;
+}
+.blue{
+  background-color: blue;
+  height: 33.33vh;
+  width: 33.33vw;
+}
+@media only screen and (max-width : 320px){
+.yellow_container{
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.yellow{
+  width: 100%;
+  height: 45%;
+}
+}
+@media only screen and (max-width : 768px){
+  .blue_container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    height: 45vh;
+    }
+    .blue{
+      width: 100%;
+      height:33.33% ;
+    }
+}
+
+
+
+
