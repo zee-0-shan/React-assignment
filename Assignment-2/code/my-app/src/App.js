@@ -18,17 +18,17 @@ return(
     </div>
 
     <div className="address">
-      <p>location</p>
+      <p>Location</p>
       <h3>{employee.location}</h3>
     </div>
 
     <div className="blood">
-      <p>blood group</p>
+      <p>Blood group</p>
       <h3>{employee.bloodGroup}</h3>
     </div>
 
     <div className="age">
-      <p>age</p>
+      <p>Age</p>
       <h3>{employee.age}</h3>
     </div>
 
