@@ -1,0 +1,139 @@
+.site-container{
+    width: 50vw;
+    height: 70vh;
+    margin: 10vh 0 0 40vh;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+/* ///////////////////////////////////////// */
+.navbar{
+    width: calc(100%-1px);
+    height: auto;
+    border: 1px  solid gray;
+    display: flex;
+    justify-content: space-between;
+}
+.center_header{
+    line-height: 0.5px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.center_header :nth-child(1){
+    font-weight: 800;
+}
+.toggleBtn{
+    font-size: x-large;
+    font-weight: 300;
+    margin: 10px 5px 5px 10px;
+    color: #bbb;
+
+}
+.btn_header{
+    background-color: black;
+    color: white;
+    line-height: 25px;
+    border: none;
+    margin: 20px 15px;
+    width: 5vw;
+}
+/* //////////////////////////////////////////////////////////////// */
+
+.Customer_info{
+    width: calc(100%-1px);
+    height: auto;
+    gap: 10px;
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+}
+.appointed{
+    display: flex;
+    column-gap: 10px;
+}
+.appointed div{
+    font-weight: 600;
+}
+.email{
+    display: flex;
+    column-gap: 10px;
+}
+.email div{
+    font-weight: 600;
+}
+.phone{
+    display: flex;
+    column-gap: 10px;
+}
+.phone div{
+    font-weight: 600;
+}
+/* //////////////////////////////////////////////////////////////////// */
+.OrderInfo{
+    display: flex;
+    width: calc(100%-1px);
+    height: auto;
+    border: 1px solid gray;
+    justify-content: space-between;
+    background-color: rgb(231, 227, 227);
+    line-height: 40px;
+}
+.status div{
+    font-weight: 600;
+}
+.door div{
+    font-weight: 600;
+}
+.time div{
+    font-weight: 600;
+}
+.time :nth-child(3){
+    color:rgb(54, 48, 48);
+    font-weight: 100;
+}
+/* ////////////////////////////////////////////////////////// */
+.checkbox{
+    border: 1px solid gray;
+    height: auto;
+    width: calc(100%-1px);
+    word-wrap: break-word;
+    display: flex;
+    column-gap: 10px;
+}
+.check{
+    position: relative;
+    top: 55px;
+    left: 10px;
+
+}
+
+.productList{
+    display: flex;
+}
+.picture img{
+    height: 100px;
+    width: 100px;
+    padding: 15px;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+.productList .description :nth-child(1){
+    font-weight: 700;
+}
+.productList :nth-child(3){
+    position: relative;
+    top: 50px;
+    left: 40px;
+    font-size: x-large;
+    color: #bbb;
+}
+.productList .description :nth-child(2){
+    color: rgb(147, 145, 145);
+}
+    
+
